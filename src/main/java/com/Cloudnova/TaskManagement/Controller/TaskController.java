@@ -1,6 +1,7 @@
-package com.Cloudnova.TaskManagement;
+package com.Cloudnova.TaskManagement.Controller;
 
 import com.Cloudnova.TaskManagement.Model.Task;
+import com.Cloudnova.TaskManagement.Service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
